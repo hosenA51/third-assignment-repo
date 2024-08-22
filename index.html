@@ -36,7 +36,7 @@
           <div class="navbar-start">
             <a class="btn btn-ghost mx-0"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span><span class="text-3xl font-extrabold">Rinterio</span></a>
           </div>
-          <div class="navbar-center hidden lg:flex mr-36">
+          <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 text-[16px] font-[400]">
               <li class="hover:font-bold duration-300 ease-in-out"><a>Home</a></li>
               <li class="hover:font-bold duration-300 ease-in-out"><a>Services</a></li>
@@ -71,7 +71,7 @@
           </div>
         </div>
         <!-- Banner section -->
-        <section class="hero bg-transparent">
+        <section class="hero container mx-auto bg-transparent lg:pb-14">
           <div class="hero-content text-center flex flex-col">
             <div>
               <img class="w-10/12 lg:w-full mx-auto" src="./assets/banner.png" alt="banner">
@@ -87,8 +87,36 @@
         </section>
     </header>
     <main class="bg-bg">
-        <section>
-            
+        <section class="lg:flex relative container mx-auto justify-center lg:justify-around items-center gap-5 p-6 lg:py-24">
+          <!-- Text content -->
+          <div class="flex flex-col flex-1 mx-auto justify-center items-center lg:justify-start lg:items-start lg:p-0">
+            <a class="btn w-32 rounded-full bg-white p-0 mb-3"><i class="fa-solid fa-arrow-right text-xl"></i><span class="text-[16px] font-extrabold">About Us</span></a>
+            <h1 class="text-3xl text-center lg:text-left lg:text-[40px] w-11/12 lg:w-9/12 font-extrabold leading-tight mb-4">We design thoughtful, liveable spaces</h1>
+            <p class="font-semibold leading-7 mb-7 text-center lg:text-left">The barn house captivates with its blend of rustic charm and <br class="hidden lg:flex">
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <!-- card -->
+            <div class="flex lg:w-[560px] bg-white lg:items-center rounded-2xl p-6 pr-16 gap-7 mb-6">
+              <img class="w-10 h-10 lg:w-16 lg:h-16" src="./assets/commercial.png" alt="icon">
+              <div class="space-y-3">
+                <h5 class="text-[16px] lg:text-xl font-extrabold">Commercial</h5>
+                <p class="text-[#737373] leading-6 mb-5">The barn house captivates with its blend <br class="hidden lg:flex"> of rustic charm and modern.</p>
+              </div>
+            </div>
+            <div class="flex lg:w-[560px] bg-white lg:items-center rounded-2xl p-6 pr-16 gap-7">
+              <img class="w-10 h-10 lg:w-16 lg:h-16" src="./assets/residential.png" alt="icon">
+              <div class="space-y-3">
+                <h5 class="text-[16px] lg:text-xl font-extrabold">Residential</h5>
+                <p class="text-[#737373] leading-7">The barn house captivates with its blend <br class="hidden lg:flex"> of rustic charm and modern.</p>
+              </div>
+            </div>
+            <div class="hidden lg:flex absolute top-9 -left-12">
+              <img src="./assets/Vector.png" alt="">
+            </div>
+          </div>
+          <!-- Image Content -->
+          <div class="lg:flex flex-1 w-full h-full mx-auto m-7 lg:h-[550px] lg:justify-end lg:p-0 rounded-2xl p-0">
+            <img class="object-cover lg:object-fill w-full h-[223px] lg:h-full rounded-2xl" src="./assets/Rectangle.png" alt="">
+          </div>
         </section>
     </main>
     <footer>
