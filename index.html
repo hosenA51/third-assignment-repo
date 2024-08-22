@@ -30,14 +30,60 @@
     </script>
 </head>
 <body class="font-Manrope">
-    <header>
+    <header class="bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] py-5">
         <!-- Navbar section -->
-        <nav>
-            
-        </nav>
+        <div class="navbar container mx-auto bg-transparent">
+          <div class="navbar-start">
+            <a class="btn btn-ghost mx-0"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span><span class="text-3xl font-extrabold">Rinterio</span></a>
+          </div>
+          <div class="navbar-center hidden lg:flex mr-36">
+            <ul class="menu menu-horizontal px-1 text-[16px] font-[400]">
+              <li class="hover:font-bold duration-300 ease-in-out"><a>Home</a></li>
+              <li class="hover:font-bold duration-300 ease-in-out"><a>Services</a></li>
+              <li class="hover:font-bold duration-300 ease-in-out"><a>Portfolio</a></li>
+              <li class="hover:font-bold duration-300 ease-in-out"><a>Blogs</a></li>
+              <li class="hover:font-bold duration-300 ease-in-out"><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="hidden navbar-end lg:flex gap-3">
+            <span class="flex rounded-full w-12 h-12 bg-white justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>
+            </span>
+            <span class="flex rounded-full w-12 h-12 bg-white justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg>            
+            </span>
+            <a class="btn w-52 h-14 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Book Consult</span><span class="flex rounded-full w-8 h-8 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+          </div>
+          <div class="navbar-end lg:hidden">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <span class="flex rounded-full w-12 h-12 bg-white justify-center items-center"><i class="fa-solid fa-bars text-xl"></i></span>
+              </div>
+              <ul tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                <li class="hover:font-bold duration-300 ease-in-out"><a>Home</a></li>
+                <li class="hover:font-bold duration-300 ease-in-out"><a>Services</a></li>
+                <li class="hover:font-bold duration-300 ease-in-out"><a>Portfolio</a></li>
+                <li class="hover:font-bold duration-300 ease-in-out"><a>Blogs</a></li>
+                <li class="hover:font-bold duration-300 ease-in-out"><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <!-- Banner section -->
-        <section>
-
+        <section class="hero bg-transparent">
+          <div class="hero-content text-center flex flex-col">
+            <div>
+              <img class="w-10/12 lg:w-full mx-auto" src="./assets/banner.png" alt="banner">
+            </div>
+            <div>
+              <h1 class="text-[32px] w-11/12 lg:text-[64px] font-black leading-tight mx-auto">A barn house of this design has a striking appearance</h1>
+              <p class="py-6 w-full lg:w-9/12 mx-auto">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+              </p>
+              <a class="btn w-full lg:w-52 h-14 rounded-full bg-[#ABEF5F]/50"><span class="text-xl font-extrabold">View Details</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+            </div>
+          </div>
         </section>
     </header>
     <main class="bg-bg">
