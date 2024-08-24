@@ -30,14 +30,38 @@
     </script>
 </head>
 <body class="font-Manrope">
-    <header class="bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] py-5">
-        <!-- Navbar section -->
-        <div class="navbar container mx-auto bg-transparent">
-          <div class="navbar-start">
-            <a class="btn btn-ghost mx-0"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span><span class="text-3xl font-extrabold">Rinterio</span></a>
-          </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 text-[16px] font-[400]">
+  <!-- Header Section -->
+  <header class="bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] py-5">
+      <!-- Navbar section -->
+      <div class="navbar container mx-auto bg-transparent">
+        <div class="navbar-start">
+          <a class="btn btn-ghost mx-0"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span><span class="text-3xl font-extrabold">Rinterio</span></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-[16px] font-[400]">
+            <li class="hover:font-bold duration-300 ease-in-out"><a>Home</a></li>
+            <li class="hover:font-bold duration-300 ease-in-out"><a>Services</a></li>
+            <li class="hover:font-bold duration-300 ease-in-out"><a>Portfolio</a></li>
+            <li class="hover:font-bold duration-300 ease-in-out"><a>Blogs</a></li>
+            <li class="hover:font-bold duration-300 ease-in-out"><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="hidden navbar-end lg:flex gap-3">
+          <span class="flex rounded-full w-12 h-12 bg-white justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>
+          </span>
+          <span class="flex rounded-full w-12 h-12 bg-white justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg>            
+          </span>
+          <a class="btn w-52 h-14 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Book Consult</span><span class="flex rounded-full w-8 h-8 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+        </div>
+        <div class="navbar-end lg:hidden">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <span class="flex rounded-full w-12 h-12 bg-white justify-center items-center"><i class="fa-solid fa-bars text-xl"></i></span>
+            </div>
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
               <li class="hover:font-bold duration-300 ease-in-out"><a>Home</a></li>
               <li class="hover:font-bold duration-300 ease-in-out"><a>Services</a></li>
               <li class="hover:font-bold duration-300 ease-in-out"><a>Portfolio</a></li>
@@ -45,398 +69,388 @@
               <li class="hover:font-bold duration-300 ease-in-out"><a>Contact Us</a></li>
             </ul>
           </div>
-          <div class="hidden navbar-end lg:flex gap-3">
-            <span class="flex rounded-full w-12 h-12 bg-white justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>
-            </span>
-            <span class="flex rounded-full w-12 h-12 bg-white justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg>            
-            </span>
-            <a class="btn w-52 h-14 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Book Consult</span><span class="flex rounded-full w-8 h-8 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
-          </div>
-          <div class="navbar-end lg:hidden">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <span class="flex rounded-full w-12 h-12 bg-white justify-center items-center"><i class="fa-solid fa-bars text-xl"></i></span>
-              </div>
-              <ul tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
-                <li class="hover:font-bold duration-300 ease-in-out"><a>Home</a></li>
-                <li class="hover:font-bold duration-300 ease-in-out"><a>Services</a></li>
-                <li class="hover:font-bold duration-300 ease-in-out"><a>Portfolio</a></li>
-                <li class="hover:font-bold duration-300 ease-in-out"><a>Blogs</a></li>
-                <li class="hover:font-bold duration-300 ease-in-out"><a>Contact Us</a></li>
-              </ul>
-            </div>
-          </div>
         </div>
-        <!-- Banner section -->
-        <section class="hero container mx-auto bg-transparent lg:pb-14">
-          <div class="hero-content text-center flex flex-col">
-            <div>
-              <img class="w-10/12 lg:w-full mx-auto" src="./assets/banner.png" alt="banner">
-            </div>
-            <div>
-              <h1 class="text-[32px] w-11/12 lg:text-[64px] font-black leading-tight mx-auto">A barn house of this design has a striking appearance</h1>
-              <p class="py-6 w-full lg:w-9/12 mx-auto">
-                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
-              </p>
-              <a class="btn w-full lg:w-52 h-14 rounded-full bg-[#ABEF5F]/50"><span class="text-xl font-extrabold">View Details</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
-            </div>
+      </div>
+      <!-- Banner section -->
+      <section class="hero container mx-auto bg-transparent lg:pb-14">
+        <div class="hero-content text-center flex flex-col">
+          <div>
+            <img class="w-10/12 lg:w-full mx-auto" src="./assets/banner.png" alt="banner">
           </div>
-        </section>
-    </header>
-    <main class="bg-bg">
-      <!-- About Us Section -->
-      <section class="lg:flex relative container mx-auto justify-center lg:justify-around items-center gap-5 p-6 lg:py-24">
-        <!-- Text content -->
-        <div class="flex flex-col flex-1 mx-auto justify-center items-center lg:justify-start lg:items-start lg:p-0">
-          <a class="btn w-32 rounded-full bg-white p-0 mb-3"><i class="fa-solid fa-arrow-right text-xl"></i><span class="text-[16px] font-extrabold">About Us</span></a>
-          <h1 class="text-3xl text-center lg:text-left lg:text-[40px] w-11/12 lg:w-9/12 font-extrabold leading-tight mb-4">We design thoughtful, liveable spaces</h1>
-          <p class="font-semibold leading-7 mb-7 text-center lg:text-left">The barn house captivates with its blend of rustic charm and <br class="hidden lg:flex">
-            modern sophistication, featuring weathered wood, sleek metal accents.</p>
-          <!-- card -->
-          <div class="flex lg:w-[560px] bg-white lg:items-center rounded-2xl p-6 pr-16 gap-7 mb-6">
-            <img class="w-10 h-10 lg:w-16 lg:h-16" src="./assets/commercial.png" alt="icon">
-            <div class="space-y-3">
-              <h5 class="text-[16px] lg:text-xl font-extrabold">Commercial</h5>
-              <p class="text-[#737373] leading-6 mb-5">The barn house captivates with its blend <br class="hidden lg:flex"> of rustic charm and modern.</p>
-            </div>
-          </div>
-          <div class="flex lg:w-[560px] bg-white lg:items-center rounded-2xl p-6 pr-16 gap-7">
-            <img class="w-10 h-10 lg:w-16 lg:h-16" src="./assets/residential.png" alt="icon">
-            <div class="space-y-3">
-              <h5 class="text-[16px] lg:text-xl font-extrabold">Residential</h5>
-              <p class="text-[#737373] leading-7">The barn house captivates with its blend <br class="hidden lg:flex"> of rustic charm and modern.</p>
-            </div>
-          </div>
-          <div class="hidden lg:flex absolute top-9 -left-12">
-            <img src="./assets/Vector.png" alt="">
-          </div>
-        </div>
-        <!-- Image Content -->
-        <div class="lg:flex flex-1 w-full h-full mx-auto m-7 lg:h-[550px] lg:justify-end rounded-2xl p-0">
-          <img class="object-cover lg:object-fill w-full h-[223px] lg:h-full rounded-2xl" src="./assets/Rectangle.png" alt="">
-        </div>
-      </section>
-      <!-- Stat Section -->
-      <section class="flex container mx-auto p-6 lg:p-0">
-        <div class="flex flex-col lg:flex-row mx-auto justify-between items-center bg-white rounded-2xl px-20 lg:px-16 gap-6 lg:gap-12 py-10 lg:py-8">
-          <div class="flex flex-col justify-center items-center p-6">
-            <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs/>
-              <path id="Vector" d="M13.33 22.5L26.66 22.5M13.33 14.16L20 14.16" stroke="#737373" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
-              <path id="Vector" d="M10.16 31.66C7.99 31.45 6.37 30.8 5.28 29.71C3.33 27.76 3.33 24.61 3.33 18.33L3.33 17.5C3.33 11.21 3.33 8.07 5.28 6.11C7.23 4.16 10.38 4.16 16.66 4.16L23.33 4.16C29.61 4.16 32.76 4.16 34.71 6.11C36.66 8.07 36.66 11.21 36.66 17.5L36.66 18.33C36.66 24.61 36.66 27.76 34.71 29.71C32.76 31.66 29.61 31.66 23.33 31.66C22.39 31.68 21.65 31.75 20.92 31.92C18.92 32.38 17.07 33.4 15.24 34.29C12.64 35.56 11.34 36.2 10.52 35.6C8.96 34.44 10.49 30.83 10.83 29.16" stroke="#737373" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linecap="round"/>
-            </svg>            
-            <h2 class="text-[32px] lg:text-[40px] font-extrabold">235+</h2>
-            <p class="text-[16px] text-[#737373] font-medium">Happy Client Review</p>
-          </div>
-          <div class="flex flex-col justify-center items-center p-6">
-            <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs/>
-              <path id="Vector" d="M34.99 15.21C34.99 13.32 34.99 12.37 34.53 11.58C34.07 10.78 33.25 10.32 31.61 9.39L23.24 4.67C21.65 3.78 20.86 3.33 20 3.33C19.13 3.33 18.34 3.78 16.76 4.67L8.38 9.39C6.74 10.32 5.92 10.78 5.46 11.58C5 12.37 5 13.32 5 15.21L5 23.13C5 29.51 5 32.7 6.95 34.68C8.9 36.66 12.04 36.66 18.33 36.66L21.66 36.66C27.95 36.66 31.09 36.66 33.04 34.68C35 32.7 35 29.51 35 23.13L34.99 15.21Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
-              <path id="Vector" d="M16.66 21.66L13.33 21.66M26.66 21.66L23.33 21.66M16.66 15L13.33 15M16.66 28.33L13.33 28.33M26.66 15L23.33 15M26.66 28.33L23.33 28.33" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
-            </svg>            
-            <h2 class="text-[32px] lg:text-[40px] font-extrabold">50+</h2>
-            <p class="text-[16px] text-[#737373] font-medium">Work Departments</p>
-          </div>
-          <div class="flex flex-col justify-center items-center p-6">
-            <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs/>
-              <path id="Vector" d="M34.62 30C35.87 30 36.86 29.21 37.75 28.11C39.58 25.86 36.58 24.06 35.44 23.18C34.28 22.29 32.98 21.78 31.66 21.66M30 18.33C32.3 18.33 34.16 16.46 34.16 14.16C34.16 11.86 32.3 10 30 10" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
-              <path id="Vector" d="M5.37 30C4.12 30 3.13 29.21 2.24 28.11C0.41 25.86 3.41 24.06 4.55 23.18C5.71 22.29 7.01 21.78 8.33 21.66M9.16 18.33C6.86 18.33 5 16.46 5 14.16C5 11.86 6.86 10 9.16 10" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
-              <path id="Vector" d="M10.02 31.07C11.35 32.39 12.83 33.33 14.69 33.33L25.3 33.33C27.16 33.33 28.64 32.39 29.97 31.07C32.69 28.38 28.23 26.23 26.52 25.18C22.53 22.71 17.46 22.71 13.47 25.18C11.77 26.23 7.3 28.38 10.02 31.07Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
-              <path id="Vector" d="M20 18.33C16.77 18.33 14.16 15.72 14.16 12.49C14.16 9.27 16.77 6.66 20 6.66C23.22 6.66 25.83 9.27 25.83 12.49C25.83 15.72 23.22 18.33 20 18.33Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
-            </svg>            
-            <h2 class="text-[32px] lg:text-[40px] font-extrabold">30k+</h2>
-            <p class="text-[16px] text-[#737373] font-medium">Our Happy Client</p>
-          </div>
-          <div class="flex flex-col justify-center items-center p-6">
-            <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs/>
-              <path id="Vector" d="M31.02 33.33L31.84 33.33C33.76 33.33 35.28 32.46 36.65 31.23C40.13 28.13 31.95 25 29.16 25M25.83 8.44C26.21 8.37 26.6 8.33 27 8.33C30.04 8.33 32.5 10.57 32.5 13.33C32.5 16.09 30.04 18.33 27 18.33C26.6 18.33 26.21 18.29 25.83 18.21" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
-              <path id="Vector" d="M3.48 32.74C5.02 34.06 6.72 35 8.87 35L21.12 35C23.27 35 24.97 34.06 26.51 32.74C29.64 30.05 24.49 27.9 22.53 26.85C17.92 24.38 12.07 24.38 7.46 26.85C5.5 27.9 0.35 30.05 3.48 32.74Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
-              <path id="Vector" d="M14.99 19.16C11.31 19.16 8.33 16.18 8.33 12.5C8.33 8.81 11.31 5.83 14.99 5.83C18.68 5.83 21.66 8.81 21.66 12.5C21.66 16.18 18.68 19.16 14.99 19.16Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
-            </svg>            
-            <h2 class="text-[32px] lg:text-[40px] font-extrabold">307+</h2>
-            <p class="text-[16px] text-[#737373] font-medium">Staff Members</p>
+          <div>
+            <h1 class="text-[32px] w-11/12 lg:text-[64px] font-black leading-tight mx-auto">A barn house of this design has a striking appearance</h1>
+            <p class="py-6 w-full lg:w-9/12 mx-auto">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <a class="btn w-full lg:w-52 h-14 rounded-full bg-[#ABEF5F]/50"><span class="text-xl font-extrabold">View Details</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
           </div>
         </div>
       </section>
-      <!-- Our Works Section -->
-      <section class="lg:flex lg:flex-col container mx-auto justify-center lg:justify-around items-center gap-5 p-6 lg:py-24">
+  </header>
+  <main class="bg-bg">
+    <!-- About Us Section -->
+    <section class="lg:flex relative container mx-auto justify-center lg:justify-around items-center gap-5 p-6 lg:py-24">
+      <!-- Text content -->
+      <div class="flex flex-col flex-1 mx-auto justify-center items-center lg:justify-start lg:items-start lg:p-0">
+        <a class="btn w-32 rounded-full bg-white p-0 mb-3"><i class="fa-solid fa-arrow-right text-xl"></i><span class="text-[16px] font-extrabold">About Us</span></a>
+        <h1 class="text-3xl text-center lg:text-left lg:text-[40px] w-11/12 lg:w-9/12 font-extrabold leading-tight mb-4">We design thoughtful, liveable spaces</h1>
+        <p class="font-semibold leading-7 mb-7 text-center lg:text-left">The barn house captivates with its blend of rustic charm and <br class="hidden lg:flex">
+          modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        <!-- card -->
+        <div class="flex lg:w-[560px] bg-white lg:items-center rounded-2xl p-6 pr-16 gap-7 mb-6">
+          <img class="w-10 h-10 lg:w-16 lg:h-16" src="./assets/commercial.png" alt="icon">
+          <div class="space-y-3">
+            <h5 class="text-[16px] lg:text-xl font-extrabold">Commercial</h5>
+            <p class="text-[#737373] leading-6 mb-5">The barn house captivates with its blend <br class="hidden lg:flex"> of rustic charm and modern.</p>
+          </div>
+        </div>
+        <div class="flex lg:w-[560px] bg-white lg:items-center rounded-2xl p-6 pr-16 gap-7">
+          <img class="w-10 h-10 lg:w-16 lg:h-16" src="./assets/residential.png" alt="icon">
+          <div class="space-y-3">
+            <h5 class="text-[16px] lg:text-xl font-extrabold">Residential</h5>
+            <p class="text-[#737373] leading-7">The barn house captivates with its blend <br class="hidden lg:flex"> of rustic charm and modern.</p>
+          </div>
+        </div>
+        <div class="hidden lg:flex absolute top-9 -left-12">
+          <img src="./assets/Vector.png" alt="">
+        </div>
+      </div>
+      <!-- Image Content -->
+      <div class="lg:flex flex-1 w-full h-full mx-auto m-7 lg:h-[550px] lg:justify-end rounded-2xl p-0">
+        <img class="object-cover lg:object-fill w-full h-[223px] lg:h-full rounded-2xl" src="./assets/Rectangle.png" alt="">
+      </div>
+    </section>
+    <!-- Stat Section -->
+    <section class="flex container mx-auto p-6 lg:p-0">
+      <div class="flex flex-col lg:flex-row mx-auto justify-between items-center bg-white rounded-2xl px-20 lg:px-16 gap-6 lg:gap-12 py-10 lg:py-8">
+        <div class="flex flex-col justify-center items-center p-6">
+          <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path id="Vector" d="M13.33 22.5L26.66 22.5M13.33 14.16L20 14.16" stroke="#737373" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+            <path id="Vector" d="M10.16 31.66C7.99 31.45 6.37 30.8 5.28 29.71C3.33 27.76 3.33 24.61 3.33 18.33L3.33 17.5C3.33 11.21 3.33 8.07 5.28 6.11C7.23 4.16 10.38 4.16 16.66 4.16L23.33 4.16C29.61 4.16 32.76 4.16 34.71 6.11C36.66 8.07 36.66 11.21 36.66 17.5L36.66 18.33C36.66 24.61 36.66 27.76 34.71 29.71C32.76 31.66 29.61 31.66 23.33 31.66C22.39 31.68 21.65 31.75 20.92 31.92C18.92 32.38 17.07 33.4 15.24 34.29C12.64 35.56 11.34 36.2 10.52 35.6C8.96 34.44 10.49 30.83 10.83 29.16" stroke="#737373" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linecap="round"/>
+          </svg>            
+          <h2 class="text-[32px] lg:text-[40px] font-extrabold">235+</h2>
+          <p class="text-[16px] text-[#737373] font-medium">Happy Client Review</p>
+        </div>
+        <div class="flex flex-col justify-center items-center p-6">
+          <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path id="Vector" d="M34.99 15.21C34.99 13.32 34.99 12.37 34.53 11.58C34.07 10.78 33.25 10.32 31.61 9.39L23.24 4.67C21.65 3.78 20.86 3.33 20 3.33C19.13 3.33 18.34 3.78 16.76 4.67L8.38 9.39C6.74 10.32 5.92 10.78 5.46 11.58C5 12.37 5 13.32 5 15.21L5 23.13C5 29.51 5 32.7 6.95 34.68C8.9 36.66 12.04 36.66 18.33 36.66L21.66 36.66C27.95 36.66 31.09 36.66 33.04 34.68C35 32.7 35 29.51 35 23.13L34.99 15.21Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
+            <path id="Vector" d="M16.66 21.66L13.33 21.66M26.66 21.66L23.33 21.66M16.66 15L13.33 15M16.66 28.33L13.33 28.33M26.66 15L23.33 15M26.66 28.33L23.33 28.33" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+          </svg>            
+          <h2 class="text-[32px] lg:text-[40px] font-extrabold">50+</h2>
+          <p class="text-[16px] text-[#737373] font-medium">Work Departments</p>
+        </div>
+        <div class="flex flex-col justify-center items-center p-6">
+          <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path id="Vector" d="M34.62 30C35.87 30 36.86 29.21 37.75 28.11C39.58 25.86 36.58 24.06 35.44 23.18C34.28 22.29 32.98 21.78 31.66 21.66M30 18.33C32.3 18.33 34.16 16.46 34.16 14.16C34.16 11.86 32.3 10 30 10" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+            <path id="Vector" d="M5.37 30C4.12 30 3.13 29.21 2.24 28.11C0.41 25.86 3.41 24.06 4.55 23.18C5.71 22.29 7.01 21.78 8.33 21.66M9.16 18.33C6.86 18.33 5 16.46 5 14.16C5 11.86 6.86 10 9.16 10" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+            <path id="Vector" d="M10.02 31.07C11.35 32.39 12.83 33.33 14.69 33.33L25.3 33.33C27.16 33.33 28.64 32.39 29.97 31.07C32.69 28.38 28.23 26.23 26.52 25.18C22.53 22.71 17.46 22.71 13.47 25.18C11.77 26.23 7.3 28.38 10.02 31.07Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+            <path id="Vector" d="M20 18.33C16.77 18.33 14.16 15.72 14.16 12.49C14.16 9.27 16.77 6.66 20 6.66C23.22 6.66 25.83 9.27 25.83 12.49C25.83 15.72 23.22 18.33 20 18.33Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
+          </svg>            
+          <h2 class="text-[32px] lg:text-[40px] font-extrabold">30k+</h2>
+          <p class="text-[16px] text-[#737373] font-medium">Our Happy Client</p>
+        </div>
+        <div class="flex flex-col justify-center items-center p-6">
+          <svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path id="Vector" d="M31.02 33.33L31.84 33.33C33.76 33.33 35.28 32.46 36.65 31.23C40.13 28.13 31.95 25 29.16 25M25.83 8.44C26.21 8.37 26.6 8.33 27 8.33C30.04 8.33 32.5 10.57 32.5 13.33C32.5 16.09 30.04 18.33 27 18.33C26.6 18.33 26.21 18.29 25.83 18.21" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+            <path id="Vector" d="M3.48 32.74C5.02 34.06 6.72 35 8.87 35L21.12 35C23.27 35 24.97 34.06 26.51 32.74C29.64 30.05 24.49 27.9 22.53 26.85C17.92 24.38 12.07 24.38 7.46 26.85C5.5 27.9 0.35 30.05 3.48 32.74Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
+            <path id="Vector" d="M14.99 19.16C11.31 19.16 8.33 16.18 8.33 12.5C8.33 8.81 11.31 5.83 14.99 5.83C18.68 5.83 21.66 8.81 21.66 12.5C21.66 16.18 18.68 19.16 14.99 19.16Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
+          </svg>            
+          <h2 class="text-[32px] lg:text-[40px] font-extrabold">307+</h2>
+          <p class="text-[16px] text-[#737373] font-medium">Staff Members</p>
+        </div>
+      </div>
+    </section>
+    <!-- Our Works Section -->
+    <section class="lg:flex lg:flex-col container mx-auto justify-center lg:justify-around items-center gap-5 p-6 lg:py-24">
+      <!-- Text content -->
+      <div class="flex flex-col justify-center items-center">
+        <a class="btn rounded-full bg-white px-3 mb-3"><i class="fa-solid fa-arrow-right text-xl mx-auto"></i><span class="text-[16px] font-extrabold">How we works</span></a>
+        <h1 class="text-2xl text-center mx-auto lg:text-[40px] font-extrabold leading-tight mb-5">Our Works Process</h1>
+        <p class="font-semibold leading-7 text-center lg:w-8/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      </div>
+      <!-- Cards -->
+      <div class="flex flex-col lg:flex-row mx-auto justify-evenly lg:justify-between items-cente p-0 gap-4 lg:gap-6 pt-5">
+        <div class="flex flex-col justify-center p-6 bg-[#E7C1D3] gap-3 rounded-2xl">
+          <img class="w-12 h-12" src="./assets/concept.png" alt="concept">            
+          <h2 class="text-xl font-extrabold">Concept</h2>
+          <p class="text-[16px] text-[#494949] font-medium w-10/12 lg:w-full">The barn house captivates <br class="hidden lg:flex"> with its blend of rustic charm <br class="hidden lg:flex"> and modern.</p>
+        </div>
+        <div class="flex flex-col justify-center p-6 bg-[#EFDA6E] gap-3 rounded-2xl">
+          <img class="w-12 h-12" src="./assets/flow-chart.png" alt="concept">            
+          <h2 class="text-xl font-extrabold">Design Process</h2>
+          <p class="text-[16px] text-[#494949] font-medium w-10/12 lg:w-full">The barn house captivates <br class="hidden lg:flex"> with its blend of rustic charm <br class="hidden lg:flex"> and modern.</p>
+        </div>
+        <div class="flex flex-col justify-center p-6 bg-[#A4DAC3] gap-3 rounded-2xl">
+          <img class="w-12 h-12" src="./assets/vision.png" alt="concept">            
+          <h2 class="text-xl font-extrabold">Supervision</h2>
+          <p class="text-[16px] text-[#494949] font-medium w-10/12 lg:w-full">The barn house captivates <br class="hidden lg:flex"> with its blend of rustic charm <br class="hidden lg:flex"> and modern.</p>
+        </div>
+        <div class="flex flex-col justify-center p-6 bg-[#77AAEA] gap-3 rounded-2xl">
+          <img class="w-12 h-12" src="./assets/budget-planning.png" alt="concept">            
+          <h2 class="text-xl font-extrabold">Budget Planning</h2>
+          <p class="text-[16px] text-[#494949] font-medium w-10/12 lg:w-full">The barn house captivates <br class="hidden lg:flex"> with its blend of rustic charm <br class="hidden lg:flex"> and modern.</p>
+        </div>
+      </div>
+    </section>
+      <!-- Latest Portfolio Section -->
+    <section class="bg-white">
+      <div class="lg:flex lg:flex-col container mx-auto justify-center lg:justify-around items-center gap-5 p-6 lg:py-20">
         <!-- Text content -->
         <div class="flex flex-col justify-center items-center">
-          <a class="btn rounded-full bg-white px-3 mb-3"><i class="fa-solid fa-arrow-right text-xl mx-auto"></i><span class="text-[16px] font-extrabold">How we works</span></a>
-          <h1 class="text-2xl text-center mx-auto lg:text-[40px] font-extrabold leading-tight mb-5">Our Works Process</h1>
-          <p class="font-semibold leading-7 text-center lg:w-8/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-        </div>
-        <!-- Cards -->
-        <div class="flex flex-col lg:flex-row mx-auto justify-evenly lg:justify-between items-cente p-0 gap-4 lg:gap-6 pt-5">
-          <div class="flex flex-col justify-center p-6 bg-[#E7C1D3] gap-3 rounded-2xl">
-            <img class="w-12 h-12" src="./assets/concept.png" alt="concept">            
-            <h2 class="text-xl font-extrabold">Concept</h2>
-            <p class="text-[16px] text-[#494949] font-medium w-10/12 lg:w-full">The barn house captivates <br class="hidden lg:flex"> with its blend of rustic charm <br class="hidden lg:flex"> and modern.</p>
-          </div>
-          <div class="flex flex-col justify-center p-6 bg-[#EFDA6E] gap-3 rounded-2xl">
-            <img class="w-12 h-12" src="./assets/flow-chart.png" alt="concept">            
-            <h2 class="text-xl font-extrabold">Design Process</h2>
-            <p class="text-[16px] text-[#494949] font-medium w-10/12 lg:w-full">The barn house captivates <br class="hidden lg:flex"> with its blend of rustic charm <br class="hidden lg:flex"> and modern.</p>
-          </div>
-          <div class="flex flex-col justify-center p-6 bg-[#A4DAC3] gap-3 rounded-2xl">
-            <img class="w-12 h-12" src="./assets/vision.png" alt="concept">            
-            <h2 class="text-xl font-extrabold">Supervision</h2>
-            <p class="text-[16px] text-[#494949] font-medium w-10/12 lg:w-full">The barn house captivates <br class="hidden lg:flex"> with its blend of rustic charm <br class="hidden lg:flex"> and modern.</p>
-          </div>
-          <div class="flex flex-col justify-center p-6 bg-[#77AAEA] gap-3 rounded-2xl">
-            <img class="w-12 h-12" src="./assets/budget-planning.png" alt="concept">            
-            <h2 class="text-xl font-extrabold">Budget Planning</h2>
-            <p class="text-[16px] text-[#494949] font-medium w-10/12 lg:w-full">The barn house captivates <br class="hidden lg:flex"> with its blend of rustic charm <br class="hidden lg:flex"> and modern.</p>
-          </div>
-        </div>
-      </section>
-       <!-- Latest Portfolio Section -->
-      <section class="bg-white">
-        <div class="lg:flex lg:flex-col container mx-auto justify-center lg:justify-around items-center gap-5 p-6 lg:py-20">
-          <!-- Text content -->
-          <div class="flex flex-col justify-center items-center">
-            <a class="btn rounded-full bg-[#ABEF5F]/20 px-3 mb-3"><i class="fa-solid fa-arrow-right text-xl mx-auto"></i><span class="text-[16px] font-extrabold">Explore our Latest works</span></a>
-            <h1 class="text-2xl text-center mx-auto lg:text-[40px] font-extrabold leading-tight mb-5">Our Latest Portfolio</h1>
-            <p class="font-semibold leading-7 text-center mb-5 lg:w-8/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-          </div>
-          <!-- Cards -->
-          <div class="grid lg:grid-cols-12 gap-6">
-            <div class="lg:flex lg:col-span-8 p-6 border rounded-2xl gap-6">
-              <img class="w-full object-cover rounded-2xl" src="./assets/img1.png" alt="">
-              <div class="flex flex-col space-y-3">
-                <h5 class="text-xl lg:text-2xl font-extrabold mt-6 lg:*:mt-0">Commercial</h5>
-                <p class="text-[#737373] leading-6 mb-5">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.</p>
-                <a class="btn border-none shadow-none hover:bg-white bg-white p-0 m-0 justify-start"><span class="text-xl font-extrabold">View Details</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
-              </div>
-            </div>
-            <div class="lg:col-span-4 p-6 border rounded-2xl">
-              <img class="w-full h-full rounded-2xl" src="./assets/img2.png" alt="">
-            </div>
-            <div class="lg:col-span-3 p-6 border rounded-2xl">
-              <img class="hidden lg:block w-full h-full rounded-2xl" src="./assets/img3.png" alt="">
-              <img class="lg:hidden w-full h-full rounded-2xl" src="./assets/img5.png" alt="">
-            </div>
-            <div class="lg:flex lg:col-span-6 p-6 border rounded-2xl gap-6">
-              <img class="w-full rounded-2xl" src="./assets/img4.png" alt="">
-              <div class="flex flex-col space-y-3">
-                <h5 class="text-xl lg:text-2xl font-extrabold mt-6 lg:*:mt-0">Commercial</h5>
-                <p class="text-[#737373] leading-6 mb-4">The barn house captivates with its blend of rustic charm and modern.</p>
-                <a class="btn border-none shadow-none hover:bg-white bg-white p-0 m-0 justify-start"><span class="text-xl font-extrabold">View Details</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
-              </div>
-            </div>
-            <div class="lg:hidden lg:col-span-3 p-6 border rounded-2xl">
-              <img class="w-full h-full rounded-2xl" src="./assets/img3.png" alt="">
-            </div>
-            <div class="lg:col-span-3 p-6 border rounded-2xl">
-              <img class="w-full h-full rounded-2xl" src="./assets/img5.png" alt="">
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Articles & News Section -->
-      <section class="lg:flex lg:flex-col container mx-auto justify-center lg:justify-around items-center py-6 lg:py-20">
-        <!-- Text content -->
-        <div class="flex flex-col justify-center items-center p-6">
-          <a class="btn rounded-full bg-[#ABEF5F]/20 px-3 mb-3"><i class="fa-solid fa-arrow-right text-xl mx-auto"></i><span class="text-[16px] font-extrabold">Rinterio News</span></a>
-          <h1 class="text-2xl text-center mx-auto lg:text-[40px] font-extrabold leading-tight mb-5">Read Our Articles and News</h1>
+          <a class="btn rounded-full bg-[#ABEF5F]/20 px-3 mb-3"><i class="fa-solid fa-arrow-right text-xl mx-auto"></i><span class="text-[16px] font-extrabold">Explore our Latest works</span></a>
+          <h1 class="text-2xl text-center mx-auto lg:text-[40px] font-extrabold leading-tight mb-5">Our Latest Portfolio</h1>
           <p class="font-semibold leading-7 text-center mb-5 lg:w-8/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
         <!-- Cards -->
-        <div class="flex lg:flex-row flex-col gap-6 px-6">
-          <div class="lg:flex lg:flex-col bg-white p-6 border rounded-2xl gap-6">
-            <div class="rounded-2xl">
-              <img class="w-full h-full rounded-2xl object-cover" src="./assets/article1.png" alt="">
-            </div>
-            <p class="flex my-5 lg:my-auto gap-4 text-[#737373] text-[16px]">
-              <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs/>
-              <path id="Vector" d="M18 2L18 4M6 2L6 4" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
-              <path id="Vector" d="M11.99 13L12 13M11.99 17L12 17M15.99 13L16 13M8 13L8 13M8 17L8 17" stroke="#737373" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
-              <path id="Vector" d="M3.5 8L20.5 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
-              <path id="Vector" d="M3.75 4.35C5 3 7.01 3 11.05 3L12.95 3C16.98 3 18.99 3 20.24 4.35C21.5 5.7 21.5 7.88 21.5 12.24L21.5 12.75C21.5 17.11 21.5 19.29 20.24 20.64C18.99 22 16.98 22 12.95 22L11.05 22C7.01 22 5 22 3.75 20.64C2.5 19.29 2.5 17.11 2.5 12.75L2.5 12.24C2.5 7.88 2.5 5.7 3.75 4.35Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
-              <path id="Vector" d="M3 8L21 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
-            </svg> July14, 2024 
-            <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs/>
-              <path id="Vector" d="M12 22C6.47 22 2 17.52 2 12C2 6.47 6.47 2 12 2C17.52 2 22 6.47 22 12C22 17.52 17.52 22 12 22Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
-              <path id="Vector" d="M7.5 17C9.83 14.55 14.14 14.44 16.5 17M11.99 12C10.6 12 9.48 10.88 9.48 9.5C9.48 8.11 10.6 7 11.99 7C13.37 7 14.49 8.11 14.49 9.5C14.49 10.88 13.37 12 11.99 12Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
-            </svg>By Admin</p>
+        <div class="grid lg:grid-cols-12 gap-6">
+          <div class="lg:flex lg:col-span-8 p-6 border rounded-2xl gap-6">
+            <img class="w-full object-cover rounded-2xl" src="./assets/img1.png" alt="">
             <div class="flex flex-col space-y-3">
-              <h5 class="text-xl font-extrabold">How to choose the furniture right  of your home.</h5>
-              <p class="text-[16px] text-[#737373] leading-6 mb-5 w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
-              <a class="btn border-none shadow-none hover:bg-white bg-white p-0 m-0 justify-start"><span class="text-xl font-extrabold">Read More</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+              <h5 class="text-xl lg:text-2xl font-extrabold mt-6 lg:*:mt-0">Commercial</h5>
+              <p class="text-[#737373] leading-6 mb-5">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.</p>
+              <a class="btn border-none shadow-none hover:bg-white bg-white p-0 m-0 justify-start"><span class="text-xl font-extrabold">View Details</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
             </div>
           </div>
-          <div class="lg:flex lg:flex-col bg-white p-6 border rounded-2xl gap-6">
-            <div class="rounded-2xl">
-              <img class="w-full h-full rounded-2xl object-cover" src="./assets/article2.png" alt="">
-            </div>
-            <p class="flex my-5 lg:my-auto gap-4 text-[#737373] text-[16px]">
-              <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs/>
-              <path id="Vector" d="M18 2L18 4M6 2L6 4" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
-              <path id="Vector" d="M11.99 13L12 13M11.99 17L12 17M15.99 13L16 13M8 13L8 13M8 17L8 17" stroke="#737373" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
-              <path id="Vector" d="M3.5 8L20.5 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
-              <path id="Vector" d="M3.75 4.35C5 3 7.01 3 11.05 3L12.95 3C16.98 3 18.99 3 20.24 4.35C21.5 5.7 21.5 7.88 21.5 12.24L21.5 12.75C21.5 17.11 21.5 19.29 20.24 20.64C18.99 22 16.98 22 12.95 22L11.05 22C7.01 22 5 22 3.75 20.64C2.5 19.29 2.5 17.11 2.5 12.75L2.5 12.24C2.5 7.88 2.5 5.7 3.75 4.35Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
-              <path id="Vector" d="M3 8L21 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
-            </svg> July14, 2024 
-            <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs/>
-              <path id="Vector" d="M12 22C6.47 22 2 17.52 2 12C2 6.47 6.47 2 12 2C17.52 2 22 6.47 22 12C22 17.52 17.52 22 12 22Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
-              <path id="Vector" d="M7.5 17C9.83 14.55 14.14 14.44 16.5 17M11.99 12C10.6 12 9.48 10.88 9.48 9.5C9.48 8.11 10.6 7 11.99 7C13.37 7 14.49 8.11 14.49 9.5C14.49 10.88 13.37 12 11.99 12Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
-            </svg>By Admin</p>
+          <div class="lg:col-span-4 p-6 border rounded-2xl">
+            <img class="w-full h-full rounded-2xl" src="./assets/img2.png" alt="">
+          </div>
+          <div class="lg:col-span-3 p-6 border rounded-2xl">
+            <img class="hidden lg:block w-full h-full rounded-2xl" src="./assets/img3.png" alt="">
+            <img class="lg:hidden w-full h-full rounded-2xl" src="./assets/img5.png" alt="">
+          </div>
+          <div class="lg:flex lg:col-span-6 p-6 border rounded-2xl gap-6">
+            <img class="w-full rounded-2xl" src="./assets/img4.png" alt="">
             <div class="flex flex-col space-y-3">
-              <h5 class="text-xl font-extrabold">How to choose the furniture right  of your home.</h5>
-              <p class="text-[16px] text-[#737373] leading-6 mb-5 w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
-              <a class="btn border-none shadow-none hover:bg-white bg-white p-0 m-0 justify-start"><span class="text-xl font-extrabold">Read More</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+              <h5 class="text-xl lg:text-2xl font-extrabold mt-6 lg:*:mt-0">Commercial</h5>
+              <p class="text-[#737373] leading-6 mb-4">The barn house captivates with its blend of rustic charm and modern.</p>
+              <a class="btn border-none shadow-none hover:bg-white bg-white p-0 m-0 justify-start"><span class="text-xl font-extrabold">View Details</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
             </div>
           </div>
-          <div class="lg:flex lg:flex-col bg-white p-6 border rounded-2xl gap-6">
-            <div class="rounded-2xl">
-              <img class="w-full h-full rounded-2xl object-cover" src="./assets/article3.png" alt="">
-            </div>
-            <p class="flex my-5 lg:my-auto gap-4 text-[#737373] text-[16px]">
-              <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs/>
-              <path id="Vector" d="M18 2L18 4M6 2L6 4" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
-              <path id="Vector" d="M11.99 13L12 13M11.99 17L12 17M15.99 13L16 13M8 13L8 13M8 17L8 17" stroke="#737373" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
-              <path id="Vector" d="M3.5 8L20.5 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
-              <path id="Vector" d="M3.75 4.35C5 3 7.01 3 11.05 3L12.95 3C16.98 3 18.99 3 20.24 4.35C21.5 5.7 21.5 7.88 21.5 12.24L21.5 12.75C21.5 17.11 21.5 19.29 20.24 20.64C18.99 22 16.98 22 12.95 22L11.05 22C7.01 22 5 22 3.75 20.64C2.5 19.29 2.5 17.11 2.5 12.75L2.5 12.24C2.5 7.88 2.5 5.7 3.75 4.35Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
-              <path id="Vector" d="M3 8L21 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
-            </svg> July14, 2024 
+          <div class="lg:hidden lg:col-span-3 p-6 border rounded-2xl">
+            <img class="w-full h-full rounded-2xl" src="./assets/img3.png" alt="">
+          </div>
+          <div class="lg:col-span-3 p-6 border rounded-2xl">
+            <img class="w-full h-full rounded-2xl" src="./assets/img5.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Articles & News Section -->
+    <section class="lg:flex lg:flex-col container mx-auto justify-center lg:justify-around items-center py-6 lg:py-20">
+      <!-- Text content -->
+      <div class="flex flex-col justify-center items-center p-6">
+        <a class="btn rounded-full bg-[#ABEF5F]/20 px-3 mb-3"><i class="fa-solid fa-arrow-right text-xl mx-auto"></i><span class="text-[16px] font-extrabold">Rinterio News</span></a>
+        <h1 class="text-2xl text-center mx-auto lg:text-[40px] font-extrabold leading-tight mb-5">Read Our Articles and News</h1>
+        <p class="font-semibold leading-7 text-center mb-5 lg:w-8/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      </div>
+      <!-- Cards -->
+      <div class="flex lg:flex-row flex-col gap-6 px-6">
+        <div class="lg:flex lg:flex-col bg-white p-6 border rounded-2xl gap-6">
+          <div class="rounded-2xl">
+            <img class="w-full h-full rounded-2xl object-cover" src="./assets/article1.png" alt="">
+          </div>
+          <p class="flex my-5 lg:my-auto gap-4 text-[#737373] text-[16px]">
             <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs/>
-              <path id="Vector" d="M12 22C6.47 22 2 17.52 2 12C2 6.47 6.47 2 12 2C17.52 2 22 6.47 22 12C22 17.52 17.52 22 12 22Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
-              <path id="Vector" d="M7.5 17C9.83 14.55 14.14 14.44 16.5 17M11.99 12C10.6 12 9.48 10.88 9.48 9.5C9.48 8.11 10.6 7 11.99 7C13.37 7 14.49 8.11 14.49 9.5C14.49 10.88 13.37 12 11.99 12Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
-            </svg>By Admin</p>
-            <div class="flex flex-col space-y-3">
-              <h5 class="text-xl font-extrabold">How to choose the furniture right  of your home.</h5>
-              <p class="text-[16px] text-[#737373] leading-6 mb-5 w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
-              <a class="btn border-none shadow-none hover:bg-white bg-white p-0 m-0 justify-start"><span class="text-xl font-extrabold">Read More</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+            <defs/>
+            <path id="Vector" d="M18 2L18 4M6 2L6 4" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+            <path id="Vector" d="M11.99 13L12 13M11.99 17L12 17M15.99 13L16 13M8 13L8 13M8 17L8 17" stroke="#737373" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+            <path id="Vector" d="M3.5 8L20.5 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+            <path id="Vector" d="M3.75 4.35C5 3 7.01 3 11.05 3L12.95 3C16.98 3 18.99 3 20.24 4.35C21.5 5.7 21.5 7.88 21.5 12.24L21.5 12.75C21.5 17.11 21.5 19.29 20.24 20.64C18.99 22 16.98 22 12.95 22L11.05 22C7.01 22 5 22 3.75 20.64C2.5 19.29 2.5 17.11 2.5 12.75L2.5 12.24C2.5 7.88 2.5 5.7 3.75 4.35Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+            <path id="Vector" d="M3 8L21 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg> July14, 2024 
+          <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path id="Vector" d="M12 22C6.47 22 2 17.52 2 12C2 6.47 6.47 2 12 2C17.52 2 22 6.47 22 12C22 17.52 17.52 22 12 22Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
+            <path id="Vector" d="M7.5 17C9.83 14.55 14.14 14.44 16.5 17M11.99 12C10.6 12 9.48 10.88 9.48 9.5C9.48 8.11 10.6 7 11.99 7C13.37 7 14.49 8.11 14.49 9.5C14.49 10.88 13.37 12 11.99 12Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+          </svg>By Admin</p>
+          <div class="flex flex-col space-y-3">
+            <h5 class="text-xl font-extrabold">How to choose the furniture right  of your home.</h5>
+            <p class="text-[16px] text-[#737373] leading-6 mb-5 w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
+            <a class="btn border-none shadow-none hover:bg-white bg-white p-0 m-0 justify-start"><span class="text-xl font-extrabold">Read More</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+          </div>
+        </div>
+        <div class="lg:flex lg:flex-col bg-white p-6 border rounded-2xl gap-6">
+          <div class="rounded-2xl">
+            <img class="w-full h-full rounded-2xl object-cover" src="./assets/article2.png" alt="">
+          </div>
+          <p class="flex my-5 lg:my-auto gap-4 text-[#737373] text-[16px]">
+            <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path id="Vector" d="M18 2L18 4M6 2L6 4" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+            <path id="Vector" d="M11.99 13L12 13M11.99 17L12 17M15.99 13L16 13M8 13L8 13M8 17L8 17" stroke="#737373" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+            <path id="Vector" d="M3.5 8L20.5 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+            <path id="Vector" d="M3.75 4.35C5 3 7.01 3 11.05 3L12.95 3C16.98 3 18.99 3 20.24 4.35C21.5 5.7 21.5 7.88 21.5 12.24L21.5 12.75C21.5 17.11 21.5 19.29 20.24 20.64C18.99 22 16.98 22 12.95 22L11.05 22C7.01 22 5 22 3.75 20.64C2.5 19.29 2.5 17.11 2.5 12.75L2.5 12.24C2.5 7.88 2.5 5.7 3.75 4.35Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+            <path id="Vector" d="M3 8L21 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg> July14, 2024 
+          <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path id="Vector" d="M12 22C6.47 22 2 17.52 2 12C2 6.47 6.47 2 12 2C17.52 2 22 6.47 22 12C22 17.52 17.52 22 12 22Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
+            <path id="Vector" d="M7.5 17C9.83 14.55 14.14 14.44 16.5 17M11.99 12C10.6 12 9.48 10.88 9.48 9.5C9.48 8.11 10.6 7 11.99 7C13.37 7 14.49 8.11 14.49 9.5C14.49 10.88 13.37 12 11.99 12Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+          </svg>By Admin</p>
+          <div class="flex flex-col space-y-3">
+            <h5 class="text-xl font-extrabold">How to choose the furniture right  of your home.</h5>
+            <p class="text-[16px] text-[#737373] leading-6 mb-5 w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
+            <a class="btn border-none shadow-none hover:bg-white bg-white p-0 m-0 justify-start"><span class="text-xl font-extrabold">Read More</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+          </div>
+        </div>
+        <div class="lg:flex lg:flex-col bg-white p-6 border rounded-2xl gap-6">
+          <div class="rounded-2xl">
+            <img class="w-full h-full rounded-2xl object-cover" src="./assets/article3.png" alt="">
+          </div>
+          <p class="flex my-5 lg:my-auto gap-4 text-[#737373] text-[16px]">
+            <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path id="Vector" d="M18 2L18 4M6 2L6 4" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+            <path id="Vector" d="M11.99 13L12 13M11.99 17L12 17M15.99 13L16 13M8 13L8 13M8 17L8 17" stroke="#737373" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+            <path id="Vector" d="M3.5 8L20.5 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+            <path id="Vector" d="M3.75 4.35C5 3 7.01 3 11.05 3L12.95 3C16.98 3 18.99 3 20.24 4.35C21.5 5.7 21.5 7.88 21.5 12.24L21.5 12.75C21.5 17.11 21.5 19.29 20.24 20.64C18.99 22 16.98 22 12.95 22L11.05 22C7.01 22 5 22 3.75 20.64C2.5 19.29 2.5 17.11 2.5 12.75L2.5 12.24C2.5 7.88 2.5 5.7 3.75 4.35Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+            <path id="Vector" d="M3 8L21 8" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg> July14, 2024 
+          <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs/>
+            <path id="Vector" d="M12 22C6.47 22 2 17.52 2 12C2 6.47 6.47 2 12 2C17.52 2 22 6.47 22 12C22 17.52 17.52 22 12 22Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000"/>
+            <path id="Vector" d="M7.5 17C9.83 14.55 14.14 14.44 16.5 17M11.99 12C10.6 12 9.48 10.88 9.48 9.5C9.48 8.11 10.6 7 11.99 7C13.37 7 14.49 8.11 14.49 9.5C14.49 10.88 13.37 12 11.99 12Z" stroke="#737373" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+          </svg>By Admin</p>
+          <div class="flex flex-col space-y-3">
+            <h5 class="text-xl font-extrabold">How to choose the furniture right  of your home.</h5>
+            <p class="text-[16px] text-[#737373] leading-6 mb-5 w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
+            <a class="btn border-none shadow-none hover:bg-white bg-white p-0 m-0 justify-start"><span class="text-xl font-extrabold">Read More</span><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Lets connect section -->
+    <section class="bg-[url('/assets/bg.jpg')] bg-cover bg-no-repeat lg:border lg:border-y-8 border-white border-y-4">
+      <div class="bg-white/40">
+        <div class="container mx-auto py-6 lg:py-20">
+          <!-- Text Content -->
+          <div class="flex flex-col mx-auto justify-center items-center p-6 pt-0 mt-0 px-7">
+            <a class="btn rounded-full bg-[#ABEF5F]/20 px-3 py-0 border-none mb-3"><i class="fa-solid fa-arrow-right text-xl mx-auto"></i><span class="text-[16px] font-extrabold">Let’s Connect</span></a>
+            <h1 class="text-3xl text-center mx-auto lg:text-[40px] font-extrabold leading-tight mb-5">Let’s Discuss Next Project</h1>
+            <p class="font-semibold leading-7 text-center mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
+          </div>
+          <!-- Input Content -->
+          <form class="flex flex-col mx-auto gap-6 p-0 m-0 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <input class="col-span-2 lg:col-span-1 w-[350px] h-[56px] lg:w-[470px] lg:h-[60px] lg:mx-auto m-0 p-6 rounded-full" type="text" name="" id="" placeholder="First Name*">
+              <input class="col-span-2 lg:col-span-1 w-[350px] lg:w-[470px] h-[60px] mx-auto m-0 p-6 rounded-full" type="text" name="" id="" placeholder="Last Name*">
+              <input class="col-span-2 lg:col-span-1 w-[350px] lg:w-[470px] h-[60px] mx-auto m-0 p-6 rounded-full" type="text" name="" id="" placeholder="Phone Number*">
+              <input class="col-span-2 lg:col-span-1 w-[350px] lg:w-[470px] h-[60px] mx-auto m-0 p-6 rounded-full" type="text" name="" id="" placeholder="Email Number*">
+              <textarea class="col-span-2 w-[350px] lg:w-full lg:col-span-2 h-[240px] rounded-3xl m-0 p-6" name="" id="" placeholder="Write your message here"></textarea>
+              <a class="btn w-full col-span-2 h-14 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Send Mail</span><span class="flex rounded-full w-8 h-8 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- House Plans Section -->
+    <section class="container py-6 lg:py-20 mx-auto">
+      <div class="flex flex-col mx-auto justify-center items-center p-6 pt-0 m-0 px-7">
+        <a class="btn rounded-full bg-[#ABEF5F]/20 px-3 py-0 border-none mb-3"><i class="fa-solid fa-arrow-right text-xl mx-auto"></i><span class="text-[16px] font-extrabold">House Plans</span></a>
+        <h1 class="text-3xl text-center mx-auto lg:text-[40px] font-extrabold leading-tight mb-5">Popular projects plans</h1>
+        <p class="font-semibold leading-7 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
+      </div>
+      <div class="carousel w-full py-8">
+        <div id="item1" class="carousel-item w-full">
+          <div class="lg:flex mx-auto lg:w-[1000px] rounded-2xl bg-base-100 shadow-xl gap-6 p-6 lg:p-0">
+            <div class="lg:w-1/3 rounded-2xl">
+              <img class="h-full object-cover rounded-2xl"
+                src="./assets/plan1.jpg"
+                alt="Album" />
+            </div>
+            <div class="flex flex-col space-y-4 p-5">
+              <h5 class="text-4xl font-extrabold">W-210-009</h5>
+              <p class="text-xl text-black leading-6 mb-5 w-11/12">Oak house 3x8, with three rooms and interior decoration of rooms</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span> Total Area: 124m</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-house-chimney"></i></span> Rooms: 02</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-brands fa-windows"></i></span> Windows: 4+2</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-mug-saucer"></i></span> Interior Finish: Yes</p>
+              <a class="btn w-48 h-10 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Contact Us</span><span class="flex rounded-full w-7 h-7 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right text-xl"></i></span></a>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Lets connect section -->
-      <section class="bg-[url('/assets/bg.jpg')] bg-cover bg-no-repeat lg:border lg:border-y-8 border-white border-y-4">
-        <div class="bg-white/40">
-          <div class="container mx-auto py-6 lg:py-20">
-            <!-- Text Content -->
-            <div class="flex flex-col mx-auto justify-center items-center p-6 pt-0 mt-0 px-7">
-              <a class="btn rounded-full bg-[#ABEF5F]/20 px-3 py-0 border-none mb-3"><i class="fa-solid fa-arrow-right text-xl mx-auto"></i><span class="text-[16px] font-extrabold">Let’s Connect</span></a>
-              <h1 class="text-3xl text-center mx-auto lg:text-[40px] font-extrabold leading-tight mb-5">Let’s Discuss Next Project</h1>
-              <p class="font-semibold leading-7 text-center mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
+        <div id="item2" class="carousel-item w-full">
+          <div class="lg:flex mx-auto lg:w-[1000px] rounded-2xl bg-base-100 shadow-xl gap-6 p-6 lg:p-0">
+            <div class="lg:w-1/3 rounded-2xl">
+              <img class="h-full object-cover rounded-2xl"
+                src="./assets/plan2.jpg"
+                alt="Album" />
             </div>
-            <!-- Input Content -->
-            <form class="flex flex-col mx-auto gap-6 p-0 m-0 items-center">
-              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <input class="col-span-2 lg:col-span-1 w-[350px] h-[56px] lg:w-[470px] lg:h-[60px] lg:mx-auto m-0 p-6 rounded-full" type="text" name="" id="" placeholder="First Name*">
-                <input class="col-span-2 lg:col-span-1 w-[350px] lg:w-[470px] h-[60px] mx-auto m-0 p-6 rounded-full" type="text" name="" id="" placeholder="Last Name*">
-                <input class="col-span-2 lg:col-span-1 w-[350px] lg:w-[470px] h-[60px] mx-auto m-0 p-6 rounded-full" type="text" name="" id="" placeholder="Phone Number*">
-                <input class="col-span-2 lg:col-span-1 w-[350px] lg:w-[470px] h-[60px] mx-auto m-0 p-6 rounded-full" type="text" name="" id="" placeholder="Email Number*">
-                <textarea class="col-span-2 w-[350px] lg:w-full lg:col-span-2 h-[240px] rounded-3xl m-0 p-6" name="" id="" placeholder="Write your message here"></textarea>
-                <a class="btn w-full col-span-2 h-14 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Send Mail</span><span class="flex rounded-full w-8 h-8 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
-      <!-- House Plans Section -->
-      <section class="container py-6 lg:py-20 mx-auto">
-        <div class="flex flex-col mx-auto justify-center items-center p-6 pt-0 m-0 px-7">
-          <a class="btn rounded-full bg-[#ABEF5F]/20 px-3 py-0 border-none mb-3"><i class="fa-solid fa-arrow-right text-xl mx-auto"></i><span class="text-[16px] font-extrabold">House Plans</span></a>
-          <h1 class="text-3xl text-center mx-auto lg:text-[40px] font-extrabold leading-tight mb-5">Popular projects plans</h1>
-          <p class="font-semibold leading-7 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
-        </div>
-        <div class="carousel w-full py-8">
-          <div id="item1" class="carousel-item w-full">
-            <div class="lg:flex mx-auto lg:w-[1000px] rounded-2xl bg-base-100 shadow-xl gap-6 p-6 lg:p-0">
-              <div class="lg:w-1/3 rounded-2xl">
-                <img class="h-full object-cover rounded-2xl"
-                  src="./assets/plan1.jpg"
-                  alt="Album" />
-              </div>
-              <div class="flex flex-col space-y-4 p-5">
-                <h5 class="text-4xl font-extrabold">W-210-009</h5>
-                <p class="text-xl text-black leading-6 mb-5 w-11/12">Oak house 3x8, with three rooms and interior decoration of rooms</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span> Total Area: 124m</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-house-chimney"></i></span> Rooms: 02</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-brands fa-windows"></i></span> Windows: 4+2</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-mug-saucer"></i></span> Interior Finish: Yes</p>
-                <a class="btn w-48 h-10 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Contact Us</span><span class="flex rounded-full w-7 h-7 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right text-xl"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div id="item2" class="carousel-item w-full">
-            <div class="lg:flex mx-auto lg:w-[1000px] rounded-2xl bg-base-100 shadow-xl gap-6 p-6 lg:p-0">
-              <div class="lg:w-1/3 rounded-2xl">
-                <img class="h-full object-cover rounded-2xl"
-                  src="./assets/plan2.jpg"
-                  alt="Album" />
-              </div>
-              <div class="flex flex-col space-y-4 p-5">
-                <h5 class="text-4xl font-extrabold">F-510-006</h5>
-                <p class="text-xl text-black leading-6 mb-5 w-11/12">Oak house 3x8, with three rooms and interior decoration of rooms</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span> Total Area: 230m</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-house-chimney"></i></span> Rooms: 05</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-brands fa-windows"></i></span> Windows: 5+3</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-mug-saucer"></i></span> Interior Finish: Yes</p>
-                <a class="btn w-48 h-10 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Contact Us</span><span class="flex rounded-full w-7 h-7 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right text-xl"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div id="item3" class="carousel-item w-full">
-            <div class="lg:flex mx-auto lg:w-[1000px] rounded-2xl bg-base-100 shadow-xl gap-6 p-6 lg:p-0">
-              <div class="lg:w-1/3 rounded-2xl">
-                <img class="h-full object-cover rounded-2xl"
-                  src="./assets/plan3.jpg"
-                  alt="Album" />
-              </div>
-              <div class="flex flex-col space-y-4 p-5">
-                <h5 class="text-4xl font-extrabold">G-510-203</h5>
-                <p class="text-xl text-black leading-6 mb-5 w-11/12">Oak house 3x8, with three rooms and interior decoration of rooms</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span> Total Area: 215m</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-house-chimney"></i></span> Rooms: 06</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-brands fa-windows"></i></span> Windows: 4+3</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-mug-saucer"></i></span> Interior Finish: Yes</p>
-                <a class="btn w-48 h-10 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Contact Us</span><span class="flex rounded-full w-7 h-7 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right text-xl"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div id="item4" class="carousel-item w-full">
-            <div class="lg:flex mx-auto lg:w-[1000px] rounded-2xl bg-base-100 shadow-xl gap-6 p-6 lg:p-0">
-              <div class="lg:w-1/3 rounded-2xl">
-                <img class="h-full object-cover rounded-2xl"
-                  src="./assets/plan4.jpg"
-                  alt="Album" />
-              </div>
-              <div class="flex flex-col space-y-4 p-5">
-                <h5 class="text-4xl font-extrabold">F-510-006</h5>
-                <p class="text-xl text-black leading-6 mb-5 w-11/12">Oak house 3x8, with three rooms and interior decoration of rooms</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span> Total Area: 140m</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-house-chimney"></i></span> Rooms: 03</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-brands fa-windows"></i></span> Windows: 4+3</p>
-                <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-mug-saucer"></i></span> Interior Finish: Yes</p>
-                <a class="btn w-48 h-10 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Contact Us</span><span class="flex rounded-full w-7 h-7 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right text-xl"></i></span></a>
-              </div>
+            <div class="flex flex-col space-y-4 p-5">
+              <h5 class="text-4xl font-extrabold">F-510-006</h5>
+              <p class="text-xl text-black leading-6 mb-5 w-11/12">Oak house 3x8, with three rooms and interior decoration of rooms</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span> Total Area: 230m</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-house-chimney"></i></span> Rooms: 05</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-brands fa-windows"></i></span> Windows: 5+3</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-mug-saucer"></i></span> Interior Finish: Yes</p>
+              <a class="btn w-48 h-10 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Contact Us</span><span class="flex rounded-full w-7 h-7 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right text-xl"></i></span></a>
             </div>
           </div>
         </div>
-        <div class="flex w-full justify-center gap-2 py-2">
-          <a href="#item1" class="btn btn-2xl"><i class="fa-solid fa-circle text-[#ABEF5F] hover:text-black text-xl"></i></a>
-          <a href="#item2" class="btn btn-2xl"><i class="fa-solid fa-circle text-[#ABEF5F] hover:text-black text-xl"></i></a>
-          <a href="#item3" class="btn btn-2xl"><i class="fa-solid fa-circle text-[#ABEF5F] hover:text-black text-xl"></i></a>
-          <a href="#item4" class="btn btn-2xl"><i class="fa-solid fa-circle text-[#ABEF5F] hover:text-black text-xl"></i></a>
+        <div id="item3" class="carousel-item w-full">
+          <div class="lg:flex mx-auto lg:w-[1000px] rounded-2xl bg-base-100 shadow-xl gap-6 p-6 lg:p-0">
+            <div class="lg:w-1/3 rounded-2xl">
+              <img class="h-full object-cover rounded-2xl"
+                src="./assets/plan3.jpg"
+                alt="Album" />
+            </div>
+            <div class="flex flex-col space-y-4 p-5">
+              <h5 class="text-4xl font-extrabold">G-510-203</h5>
+              <p class="text-xl text-black leading-6 mb-5 w-11/12">Oak house 3x8, with three rooms and interior decoration of rooms</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span> Total Area: 215m</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-house-chimney"></i></span> Rooms: 06</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-brands fa-windows"></i></span> Windows: 4+3</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-mug-saucer"></i></span> Interior Finish: Yes</p>
+              <a class="btn w-48 h-10 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Contact Us</span><span class="flex rounded-full w-7 h-7 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right text-xl"></i></span></a>
+            </div>
+          </div>
         </div>
-      </section>
-    </main>
-    <footer>
-
-    </footer>    
+        <div id="item4" class="carousel-item w-full">
+          <div class="lg:flex mx-auto lg:w-[1000px] rounded-2xl bg-base-100 shadow-xl gap-6 p-6 lg:p-0">
+            <div class="lg:w-1/3 rounded-2xl">
+              <img class="h-full object-cover rounded-2xl"
+                src="./assets/plan4.jpg"
+                alt="Album" />
+            </div>
+            <div class="flex flex-col space-y-4 p-5">
+              <h5 class="text-4xl font-extrabold">F-510-006</h5>
+              <p class="text-xl text-black leading-6 mb-5 w-11/12">Oak house 3x8, with three rooms and interior decoration of rooms</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span> Total Area: 140m</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-house-chimney"></i></span> Rooms: 03</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-brands fa-windows"></i></span> Windows: 4+3</p>
+              <p class="flex gap-2 items-center"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] text-black justify-center items-center"><i class="fa-solid fa-mug-saucer"></i></span> Interior Finish: Yes</p>
+              <a class="btn w-48 h-10 rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Contact Us</span><span class="flex rounded-full w-7 h-7 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right text-xl"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex w-full justify-center gap-2 py-2">
+        <a href="#item1" class="btn btn-2xl"><i class="fa-solid fa-circle text-[#ABEF5F] hover:text-black text-xl"></i></a>
+        <a href="#item2" class="btn btn-2xl"><i class="fa-solid fa-circle text-[#ABEF5F] hover:text-black text-xl"></i></a>
+        <a href="#item3" class="btn btn-2xl"><i class="fa-solid fa-circle text-[#ABEF5F] hover:text-black text-xl"></i></a>
+        <a href="#item4" class="btn btn-2xl"><i class="fa-solid fa-circle text-[#ABEF5F] hover:text-black text-xl"></i></a>
+      </div>
+    </section>
+  </main>
+  <!-- Footer Section -->
+  <footer class="bg-black lg:py-24 lg:my-3 py-16 px-8 lg:px-0">
+    <div class="container mx-auto">
+      <a class="flex mx-auto btn btn-ghost mx-0"><span class="flex rounded-full w-8 h-8 bg-[#ABEF5F] justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span><span class="text-3xl font-extrabold text-white">Rinterio</span></a>
+      <br>
+      <p class="text-[#737373] font-medium leading-7 text-center lg:mb-12 mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
+      <div class="flex flex-col lg:flex-row gap-8 lg:gap-28 mx-auto items-center justify-center lg:mb-12 mb-8">
+        <a class="text-[#E9E9E9] font-medium" href="">Home</a>
+        <a class="text-[#E9E9E9] font-medium" href="">Services</a>
+        <a class="text-[#E9E9E9] font-medium" href="">Portfolio</a>
+        <a class="text-[#E9E9E9] font-medium" href="">Blogs</a>
+        <a class="text-[#E9E9E9] font-medium" href="">Contact Us</a>
+      </div>
+      <a class="flex btn lg:w-52 mx-auto rounded-full bg-[#ABEF5F]"><span class="text-xl font-extrabold">Book Consult</span><span class="flex rounded-full w-8 h-8 bg-black text-white justify-center items-center"><i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></span></a>
+    </div>
+  </footer>    
 </body>
 </html>
